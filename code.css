@@ -1,0 +1,311 @@
+body{
+    background: linear-gradient(#c6ffdd, #fbd786, #f7797d);
+}
+.first {
+    background-color: rgb(228, 149, 149);
+    border: 8px;
+    border-style: solid;
+    border-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 70px;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second {
+    background-color: rgb(228, 149, 149);
+    border: 8px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -200px;
+
+}
+
+.third {
+    background-color: rgb(228, 149, 149);
+    border: 8px;
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.cirform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.main {
+    /* border: 5px;
+    border-style: solid;
+    border-color:black; */
+    border: 5px solid #000;
+    background-color: rgb(194, 120, 120);
+    font-weight:bold;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+#p{
+    padding-top:4.5rem;
+}
+
+.main hr{
+    width: 95%;
+}
+.form {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    background-color: rgb(201, 126, 99);
+    border: 10px;
+    border-style: dashed;
+    border-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 650px;
+   
+}
+
+.menu {
+    background-color: rgb(228, 149, 149);
+    border: 8px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 50px;
+    font-style: italic;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 320px;
+    top: 20px;
+}
+
+.hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.one {
+    background-color: rgb(167, 112, 219);
+    border: 3px;
+    border-style: solid;
+    border-radius: 30px;
+    color: rgb(62, 3, 70);
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+}
+
+.starter {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+}
+
+.two {
+    background-color: rgb(167, 112, 219);
+    border: 3px;
+    border-style: solid;
+    border-radius: 30px;
+    color: rgb(62, 3, 70);
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+}
+
+.south {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.three {
+    background-color: rgb(167, 112, 219);
+    border: 3px;
+    border-style: solid;
+    border-radius: 30px;
+    color: rgb(62, 3, 70);
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+}
+
+.indian {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 5px;
+}
+
+.list {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin: 30px 10px;
+}
+
+.ones {
+    background-color: rgb(167, 112, 219);
+    border: 3px;
+    border-style: solid;
+    border-radius: 30px;
+    color: rgb(62, 3, 70);
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+}
+
+.twos {
+    background-color: rgb(167, 112, 219);
+    border: 3px;
+    border-style: solid;
+    border-radius: 30px;
+    color: rgb(62, 3, 70);
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+}
+
+.threes {
+    background-color: rgb(167, 112, 219);
+    border: 3px;
+    border-style: solid;
+    border-radius: 30px;
+    color: rgb(62, 3, 70);
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+}
+
+.listtwo {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin: 30px 10px;
+}
+
+.rice {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+
+.bread {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5px;
+}
+
+.other {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40px;
+}
